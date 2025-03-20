@@ -1,0 +1,129 @@
+#body1{
+    background-color: white;
+     height: 100vh;
+    background-position: 100% 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+
+.login{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+    width: fit-content;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(79, 82, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+
+.login .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 90vh;
+    background-color: white;
+    
+
+}
+#email,#pw{
+    width: 20vw;
+    height: 4.5vh;
+    border: none;
+    box-shadow: 1px 1px 1px 1px #4f52ff;
+    padding: 10px;
+    background-color: #e8eefe;
+    transition-duration: 0.3s;
+}
+
+#email:focus,#pw:focus{
+    scale: 1.03;
+    
+}
+
+
+#rem{
+    height: 1.4vh;
+    width: 1.4vh;
+}
+
+
+label{
+    font-weight: 600;
+    font-size: 1.5vh;
+    color:#7d96f5;
+}
+
+
+
+
+
+#fpw{
+    text-decoration: none;
+    color:#7d96f5;
+    font-weight: 600;
+    margin-left: 4vw;
+    transition-duration: 0.3s;
+}
+#fpw:hover{
+    text-decoration: underline;
+}
+
+#signup{
+    color:#4f52ff;
+    font-size: 1.7vh;
+}
+
+/*Login button*/
+#loginbutton{
+    background-color: #4e51fa;
+    color: white;
+    border: none;
+    width: 10vw;
+    height: 4vh;
+    font-weight: 600;
+    transition-duration: 0.3s;
+}
+
+#loginbutton:hover{
+    scale: 1.05;
+    box-shadow: 1px 1px 1px 1px #4e51fa;
+}
+
+
+
+#altBtn{
+    background-color: #4e51fa;
+    height: 4vh;
+    width: 15vh;
+    border: none;
+    color: white;
+    transition-duration: 0.5s;
+    font-weight: 600;
+
+}
+#altBtn:hover{
+    scale: 1.05;
+    box-shadow: 1px 1px 1px 1px #575c6c;
+}
+
+.content h2 {
+	color: #4f52ff;
+    font-size: 4vh;
+    text-shadow: 1px 1px 1px #4f52ff;
+}
+
+
+input{
+	font-weight: 600;
+}
+
